@@ -1,5 +1,4 @@
 * {
-    border: 1px red solid;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
@@ -13,6 +12,10 @@ header {
     padding: 2%;
     background-color: lightblue;
     color: #fff;
+}
+
+body{
+    background-color: #d8e3e7;
 }
 
 h1{
