@@ -14,6 +14,11 @@ header {
     color: #fff;
 }
 
+#picture{
+    max-width: 7%;
+    min-width: 50px;    
+}
+
 body{
     background-color: #d8e3e7;
 }
@@ -23,11 +28,14 @@ h1{
     font-size: 30px;
 }
 
+/* I wanted the links to be spaced evenly */
+
 nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
 }
+/* headers to pop out and ease user accessiblity using my portfolio  */
 
 h2,h3,h4{
     font-weight: bold;
@@ -43,6 +51,7 @@ main {
     margin: 2% auto;
 }
 
+/* Main project needed to be bigger than the rest */
 .Calculator {
 
     border-style: solid;
@@ -85,10 +94,6 @@ main {
     padding: 20px;
 }
 
-#picture{
-    max-width: 7%;
-    min-width: 50px;    
-}
 
 @media screen and (max-width: 768px) {
     header,
