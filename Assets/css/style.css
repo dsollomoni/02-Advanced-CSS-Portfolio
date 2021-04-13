@@ -2,6 +2,7 @@
     border: 1px red solid;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 header {
@@ -23,16 +24,69 @@ nav ul {
     justify-content: space-between;
     min-width: 300px;
 }
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
 main {
     display: flex;
     flex: 1 1 0;
     max-width: 1200px;
     margin: 2% auto;
-  }
+}
+
+.Calculator {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+
+.Calculator img{
+    width: 100%;
+}
+
+.Calculator p {
+    text-align: center;
+}
+
+.Calculator header {
+    padding: 20px;
+
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card header {
+    padding: 20px;
+}
 
 @media screen and (max-width: 768px) {
     header,
     main {
       flex-direction: column;
     }
-  
