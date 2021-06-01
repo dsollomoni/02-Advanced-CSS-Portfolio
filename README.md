@@ -5,6 +5,6 @@ I built this Project to start my portfolio for future job hunting. It has easy t
 
 Repo: https://dsollomoni.github.io/02-Advanced-CSS-Portfolio/
 
-![desktop preview](./Assets/Images/preview.png)
+![desktop preview](./Assets/Images/screenshot.png)
 
-![mobile preview](./Assets/Images/mobile-preview.png)
+![mobile preview](./Assets/Images/screenshot2.png)
