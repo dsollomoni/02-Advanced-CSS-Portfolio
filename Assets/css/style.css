@@ -99,4 +99,5 @@ main {
     header,
     main {
       flex-direction: column;
+    }
 }
